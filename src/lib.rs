@@ -1,7 +1,5 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+type Real = f32;
+type Int = i32;
+type Uint = u32;
+
+mod user;
