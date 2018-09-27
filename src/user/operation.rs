@@ -1,4 +1,4 @@
-use Uint;
+use {Uint, Time};
 use user::UserId;
 
 /// Represents an operation performed in the future.
@@ -14,4 +14,5 @@ struct Insertion {
 
 struct Deletion {
     deleter: UserId,
+    time: Time,
 }
