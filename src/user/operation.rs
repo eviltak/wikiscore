@@ -1,5 +1,6 @@
-use {Uint, Time};
+use {Uint};
 use user::UserId;
+use time::Time;
 
 /// Represents an operation performed in the future.
 ///
